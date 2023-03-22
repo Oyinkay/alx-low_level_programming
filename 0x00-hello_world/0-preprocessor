@@ -1,2 +1,2 @@
 #!/bin/bash
-gh
+# include <stdio.h>
