@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
- * the program is to print positive and negative numbers
+ *main:  the program is to print positive and negative numbers
  * Return: (0) this means that the code is successful
 
  */
@@ -14,15 +14,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n < 0)
 	{
-		printf("%d is negative\n\n", n);
+		printf("%d is negative\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("%d is zero\n\n", n);
+		printf("%d is zero\n", n);
 	}
 	else
 	{
-		printf("%d is positive\n\n", n);
+		printf("%d is positive\n", n);
 	}
 	return (0);
 }
