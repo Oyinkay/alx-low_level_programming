@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * main:  the program is to print positive and negative numbers
+/**
+ * main - Entry point
+ * Description:  the program is to print positive and negative numbers
  * srand: the program is to find if a number is positive, negative or zero
- * Return: (0) this means that the code is successful
+ * Return: Always return 0 (this means that the code is successful)
  */
 int main(void)
 {
