@@ -1,15 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /*
  *main:  the program is to print positive and negative numbers
  * Return: (0) this means that the code is successful
-
  */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n < 0)
