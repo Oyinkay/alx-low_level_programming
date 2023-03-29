@@ -5,7 +5,7 @@
  * Return: Always return 0 (success)
 */
 
-int main(void)
+int main (void)
 
 {
 	char l;
@@ -15,5 +15,5 @@ int main(void)
 	for (l = 'A' ; l <= 'Z' ; l++);
 	putchar(l);
 	putchar('\n');
-	return (0)
+	return (0);
 }
