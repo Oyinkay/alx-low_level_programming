@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /*
- *main:  the program is to print positive and negative numbers
+ * main:  the program is to print positive and negative numbers
  * Return: (0) this means that the code is successful
  */
 int main(void)
