@@ -4,7 +4,7 @@
  * Description: The program is to print alphabet in lower case
  * Return: Always return 0 (success)
 */
-int main(void)
+char main(void)
 
 {
 	char i;
