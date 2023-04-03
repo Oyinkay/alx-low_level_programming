@@ -12,14 +12,17 @@ int main(void)
 
 	for (o = 0; o <= 10; o++)
 	{
-		for (k =1; k < 10; k++)
+		for (k = 1; k < 10; k++)
 		{
 			if (o < k && o != k)
 			{
 				putchar(o + '0');
 				putchar(k + '0');
+				if (o+k != 17)
+				{
 				putchar(',');
 				putchar(' ');
+				}
 			}
 		}
 	}
