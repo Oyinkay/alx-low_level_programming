@@ -19,7 +19,7 @@ int main(void)
 				if (k < o && o < l)
 				{
 					putchar(k + '0');
-					putchar(o + 'o');
+					putchar(o + '0');
 					putchar(l + '0');
 					if (k + o + l != 24)
 					{
