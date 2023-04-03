@@ -16,7 +16,7 @@ int main(void)
 		for (o = 1; o < 10; o++)
 		{
 			for (l = 2; l < 10; l++)
-				if (k < o && k < l && o < l && k != o && k != l && o != l)
+				if (k < o && o < l)
 				{
 					putchar(k + '0');
 					putchar(o + 'o');
