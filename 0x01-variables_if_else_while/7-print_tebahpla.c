@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * Description: The program writes alphabet in reverse move
- * return - always 0 (successful)
+ * return - Always 0 (successful)
 */
 
 int main(void)
